@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.container > div{
+    display: inline-block;
+}
+.cards{
+    width: 400px;
+    font-size: 18px;
+    padding: 5px;
+}
+.card_box{
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+div p{
+    text-align: justify;
+}
+div h2{
+    text-align: center;
+    font-weight: 800;
+    font-size: 22px;
+}
+h2, p{
+    margin: 10px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+li>a{
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: grey;
+}
+a{
+    text-decoration: none;
+}
+div>a{
+    color: black;
+}
+.link{
+    text-align: center;
+    padding: 10px 0;
+}
+img, button, .card_box{
+    border-radius: 4px;
+}
+.logo{
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+    width: 100px;
+}
+.header{
+    background: #202020;
+    padding: 15px;
+    text-align: center;
+}
+ul{
+    width: 1000px;
+}
+ul, li, .logo, .btn{
+    display: inline-block;
+}
+.menu{
+    width: 1200px;
+    margin: 0 auto;
+}
+.menu, .container{
+    font-size: 0;
+}
+li{
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+button{
+    background: transparent;
+    cursor: pointer;
+    border: 0;
+    border: 1px solid white;
+    padding: 5px 15px;
+    color: white;
+}
+button:hover{
+    background: grey;
+}
+.btn{
+    width: 100px;
+}
+.title{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 800;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.content{
+    height: 150px;
+    overflow: hidden;
+}
